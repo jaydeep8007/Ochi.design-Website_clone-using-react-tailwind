@@ -26,7 +26,7 @@ const FeaturedProjects = () => {
           </div>
         </div>
         <div className="Rightcard scale-125 sm:scale-100">
-          <div className="text-[1vw] text-black absolute top-[2vw] left-[54vw] z-10 -translate-x-1/2 -translate-y-1/2">
+          <div className="text-[1vw] text-black absolute top-[2vw] left-[4vw] sm:left-[54vw] z-10 -translate-x-1/2 -translate-y-1/2">
             WISE
           </div>
           <div className="w-[45vw] h-[35vw] flex items-center bg-[#19181E] rounded-xl transform ease-in-out transition-transform duration-700 hover:scale-95">
