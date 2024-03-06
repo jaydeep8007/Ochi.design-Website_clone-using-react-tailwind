@@ -1,13 +1,13 @@
 const Cards = () => {
   return (
     <div>
-      <div className="h-screen w-full ">
-        <div className="cards h-full px-[5vw] flex flex-row gap-[1vw] justify-between  items-center ">
-          <div className="card1 hover:scale-[102%] transform transition-transform ease-in-out duration-700  relative h-[26vw] w-[50vw] flex items-center justify-center rounded-xl bg-[#004D43]">
+      <div className="h-[80vh] mt-[10vh] sm:mt-0 sm:h-screen w-full ">
+        <div className="cards h-full px-[5vw] flex flex-col sm:flex-row gap-[10vh] sm:gap-[1vw]  sm:justify-between  items-center ">
+          <div className="card1 scale-150 sm:scale-100 hover:scale-[102%] transform transition-transform ease-in-out duration-700  relative h-[26vw] w-[50vw] flex items-center justify-center rounded-xl bg-[#004D43]">
             <img src="/ochiCard1.svg" alt="" />
             <main className="btn absolute left-[2vw] bottom-[2vw]">
               <button
-                className={`h-8 px-[1vw] rounded-3xl border border-[#CDEA68] text-[#CDEA68] relative overflow-hidden `}
+                className={`scale-50 sm:scale-100 h-8 px-[1vw] rounded-3xl border border-[#CDEA68] text-[#CDEA68] relative overflow-hidden `}
               >
                 <span className="relative text-sm z-10">2019-2022</span>
                 <span
@@ -16,11 +16,11 @@ const Cards = () => {
               </button>
             </main>
           </div>
-          <div className="card2 hover:scale-[102%] transform transition-transform ease-in-out duration-700 relative h-[26vw] w-[25vw] flex items-center justify-center rounded-xl bg-[#212121]">
+          <div className="card2 scale-150 sm:scale-100 hover:scale-[102%] transform transition-transform ease-in-out duration-700 relative h-[26vw] w-[25vw] flex items-center justify-center rounded-xl bg-[#212121]">
             <img src="/clutchCard2.svg" alt="" />
             <main className="btn absolute left-[2vw] bottom-[2vw]">
               <button
-                className={`h-8 px-[1vw] rounded-3xl border text-white border-slate-300 relative overflow-hidden`}
+                className={`scale-50 sm:scale-100 h-8 px-[1vw] rounded-3xl border text-white border-slate-300 relative overflow-hidden`}
               >
                 <span className="relative text-sm z-10">
                   RATING 5.0 ON CLUTCH
@@ -31,11 +31,11 @@ const Cards = () => {
               </button>
             </main>
           </div>
-          <div className="card3 hover:scale-[102%] transform transition-transform ease-in-out duration-700 relative h-[26vw] w-[25vw] flex items-center justify-center rounded-xl bg-[#212121]">
+          <div className="card3 scale-150 sm:scale-100 hover:scale-[102%] transform transition-transform ease-in-out duration-700 relative h-[26vw] w-[25vw] flex items-center justify-center rounded-xl bg-[#212121]">
             <img className="w-[7vw]" src="/Card3.png" alt="" />
             <main className="btn absolute left-[2vw] bottom-[2vw]">
               <button
-                className={`h-8 px-[1vw] rounded-3xl border text-white border-slate-300 relative overflow-hidden`}
+                className={`scale-50 sm:scale-100 h-8 px-[1vw] rounded-3xl border text-white border-slate-300 relative overflow-hidden`}
               >
                 <span className="relative text-sm z-10">
                   BUISINESS BOOTCAMP ALUMNI

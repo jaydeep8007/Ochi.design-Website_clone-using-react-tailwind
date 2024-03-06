@@ -8,7 +8,7 @@ const LandingPage = () => {
         data-scroll
         data-scroll-speed="-.2"
         // ................
-        className="w-full h-screen text-black bg-white"
+        className="w-full h-[50vh] sm:h-screen text-black bg-white"
       >
         <div className="leftTextArea  pt-[22vh] pl-[3vw] ">
           <div className="maskers  font-['Founders_Grotesk']">
@@ -26,7 +26,7 @@ const LandingPage = () => {
                       >
                         <img
                           className="scale-125"
-                          src="/public/ochiSlide.png"
+                          src="/ochiSlide.png"
                           alt=""
                         />
                       </motion.div>
@@ -44,7 +44,7 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="w-full h-[1px] mt-[8vw]  bg-slate-700"></div>
-        <div className="bottomOfLandingPage text-[1vw] pt-5 mb-[6vw] flex justify-between px-[3vw] ">
+        <div className="bottomOfLandingPage text-[2vw] sm:text-[1vw] pt-5 mb-[6vw] gap-[1vh] flex flex-col sm:flex-row justify-between px-[3vw] ">
           {[
             "For public and private companies",
             "From the first pitch to IPO",
@@ -53,11 +53,11 @@ const LandingPage = () => {
           })}
           <main className="group">
             <button
-              className={`h-8 px-[1vw] rounded-3xl border border-slate-600 relative overflow-hidden hover:text-white`}
+              className={`h-[2vh] sm:h-8 px-[1vw] rounded-3xl border border-slate-600 relative overflow-hidden hover:text-white`}
             >
               <span className="relative z-10">START THE PROJECTS</span>
               <span
-                className={`bg-zinc-900 px-[1vw] w-full rounded-full h-8  absolute bottom-0 left-0  transform translate-y-full group-hover:translate-y-0 transition-all duration-300 ease-in-out`}
+                className={`bg-zinc-900 px-[1vw] w-full rounded-full h-[2vh] sm:h-8  absolute bottom-0 left-0  transform translate-y-full group-hover:translate-y-0 transition-all duration-300 ease-in-out`}
               ></span>
             </button>
           </main>

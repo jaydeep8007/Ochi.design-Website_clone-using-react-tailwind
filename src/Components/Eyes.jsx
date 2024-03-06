@@ -1,12 +1,12 @@
 const Eyes = () => {
   return (
     <>
-      <div className="eyes flex items-center h-[120vh] w-full  overflow-hidden">
+      <div className="eyes flex items-center h-full sm:h-[120vh] w-full  overflow-hidden">
         <div
           data-scroll
           data-scroll-section
           data-scroll-speed="-.7"
-          className="relative h-[60vw] "
+          className="relative h-[40vh] sm:h-[60vw] "
         >
           <img src="/EyesBg.jpg" alt="Eyes" />
           <div className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  ">

@@ -4,10 +4,10 @@ const FeaturedProjects = () => {
   return (
     <div className="h-full w-full ">
       <div className="h-[7vw]  w-full mt-[5vw] mb-[2vw] pl-[3vw] border-b border-gray-400  ">
-        <div className="text-[3.5vw] ">Featured Projects</div>
+        <div className="text-[5vw] sm:text-[3.5vw] ">Featured Projects</div>
       </div>
-      <div className="relative cardcontainer  w-full flex flex-row gap-[1.5vw] justify-between  px-[4vw] py-[4vw] ">
-        <div className="leftCard ">
+      <div className="relative py-[5vh] sm:py-0 cardcontainer  w-full flex flex-col sm:flex-row gap-[10vh] sm:gap-[1.5vw]  items-center sm:justify-between  px-[4vw]  ">
+        <div className="leftCard scale-125 sm:scale-100">
           <div className="text-[1vw] text-black  absolute top-[2vw] left-[7vw] z-10 -translate-x-1/2 -translate-y-1/2">
             FYDE
           </div>
@@ -18,14 +18,14 @@ const FeaturedProjects = () => {
               alt=""
             />
           </div>
-          <div className="scale-95 pt-[1vw]   flex flex-row gap-[.5vw]">
+          <div className=" scale-150  sm:scale-95 pt-[1vw]   justify-center flex flex-wrap flex-row gap-[.5vw]">
             <Button tag={`AUDIT`} />
             <Button tag={`COPYWRITING`} />
             <Button tag={`SALES DECK`} />
             <Button tag={`SLIDES DESIGN`} />
           </div>
         </div>
-        <div className="Rightcard">
+        <div className="Rightcard scale-125 sm:scale-100">
           <div className="text-[1vw] text-black absolute top-[2vw] left-[54vw] z-10 -translate-x-1/2 -translate-y-1/2">
             WISE
           </div>
@@ -37,14 +37,14 @@ const FeaturedProjects = () => {
             />
           </div>
 
-          <div className="scale-95 pt-[1vw]   flex flex-row gap-[.5vw]">
+          <div className="scale-150  sm:scale-95 pt-[1vw]  justify-center flex flex-row gap-[.5vw]">
             <Button tag={`AGENCY`} />
             <Button tag={`COMPANY PRESENTATION`} />
           </div>
         </div>
       </div>
-      <div className="caseStudiesBtn  pt-[5vw] relative">
-        <main className="group  absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+      <div className="caseStudiesBtn  pt-[8vh] sm:pt-[5vw] relative">
+        <main className="group scale-50 sm:scale-100 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <button
             className={`h-10 px-[1vw] rounded-3xl bg-zinc-800 text-white border  border-gray-900 relative overflow-hidden hover:text-white`}
           >

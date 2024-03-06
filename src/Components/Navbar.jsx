@@ -39,7 +39,6 @@ const Navbar = () => {
                 <a
                   className={`hover:underline  ${index === 4 && "ml-[20vw]"}`}
                   key={index}
-                  href=""
                 >
                   {items}
                 </a>

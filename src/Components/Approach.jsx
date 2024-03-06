@@ -4,9 +4,9 @@ const Approach = () => {
       <div
         data-scroll
         data-scroll-speed=".2"
-        className=" h-fit -mt-[15vw] w-full rounded-t-3xl text-black bg-[#CDEA68]"
+        className=" h-fit sm:-mt-[15vw] w-full rounded-t-3xl text-black bg-[#CDEA68]"
       >
-        <div className=" text-[3.5vw] tracking-tighter leading-none h-[30vh] w-full px-[5vw] pt-[5vw] mb-[4vw]  pr-[22vw]">
+        <div className=" text-[3.5vw] tracking-tighter leading-none sm:h-[30vh] w-full px-[5vw] pt-[5vw] mb-[4vw]  pr-[22vw]">
           Ochi is a strategic partner for fast-grow­ing tech businesses that
           need to raise funds, sell prod­ucts, ex­plain com­plex ideas, and hire
           great peo­ple.

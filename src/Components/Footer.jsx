@@ -1,13 +1,13 @@
 const Footer = () => {
   return (
     <div>
-      <div className="h-screen overflow-hidden flex pt-[5vw] rounded-t-2xl text-white bg-[#115850] w-full">
+      <div className="h-[80vh] sm:h-screen overflow-hidden flex pt-[5vw] rounded-t-2xl text-white bg-[#115850] w-full">
         <div className="left relative h-screen w-[50vw] ">
           <div className="w-[20vw] h-full ml-[5vw] mt-[2vw] flex flex-col ">
             <span className="text-[6vw]  font-bold tracking-tighter leading-none">
               EYE-OPENING
             </span>
-            <div className="logo absolute left-[5vw] bottom-[20%]">
+            <div className="logo absolute left-[5vw] bottom-[30%] sm:bottom-[20%]">
               <svg
                 width="72"
                 height="30"
@@ -44,8 +44,8 @@ const Footer = () => {
             <span className="text-[6vw]  font-bold tracking-tighter leading-none">
               PRESENTATIONS
             </span>
-            <div className="leading-[1.5vw]">
-              <div className="Links pt-[3vw] flex items-start justify-start w-[30vw] h-full">
+            <div className="sm:leading-[1.5vw] ">
+              <div className="Links pt-[3vw] flex items-start justify-start  sm:w-[30vw] h-full">
                 <div className="flex flex-col ">
                   <h5 className="pb-2">S:</h5>
                   <a className="hover:underline" href="">
@@ -85,7 +85,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="Links absolute right-0 top-[40%] pt-[2vw]  flex items-start justify-start w-[10vw] h-full">
+              <div className="M hidden  absolute right-0 top-[40%] pt-[2vw]  sm:flex items-start justify-start w-[10vw] h-full">
                 <div className="flex flex-col ">
                   <h5 className="pb-2">M:</h5>
                   <div className="flex flex-col ">
