@@ -22,7 +22,7 @@ const LandingPage = () => {
                         initial={{ width: 0 }}
                         animate={{ width: "7vw" }}
                         transition={{ ease: [0.83, 0, 0.17, 1], duration: 1.2 }}
-                        className="overflow-hidden h-[5vw] w-[7vw] relative -top-[1.5vh]  rounded-md"
+                        className="overflow-hidden sm:h-[5vw] w-[7vw] relative -top-[.8vw]  rounded-md"
                       >
                         <img
                           className="scale-125"

@@ -47,7 +47,7 @@ const Approach = () => {
         <div className="OurApproach  border-t border-gray-700 h-[40vw] w-full  flex flex-row  ">
           <div className="leftb h-full w-[50vw] flex flex-col gap-[2vw] pl-[3vw] pt-[2vw]">
             <h1 className="font-semibold text-[3vw]">Our approach:</h1>
-            <button className=" w-[11vw] h-[4vw] bg-black text-white rounded-full border border-gray-500 px-3 py-1">
+            <button className="overflow-hidden text-[1.8vw] w-[11vw] h-[4vw] bg-black text-white rounded-full border border-gray-500 px-3 py-1">
               READ MORE
             </button>
           </div>
