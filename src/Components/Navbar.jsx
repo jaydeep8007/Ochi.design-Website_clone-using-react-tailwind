@@ -32,7 +32,7 @@ const Navbar = () => {
             ></path>
           </svg>
         </div>
-        <div className={`links text-[1vw] flex gap-[3vw]  `}>
+        <div className={`links text-[1.9vw] sm:text-[1vw] flex gap-[3vw]  `}>
           {["Services", "Our Work", "About Us", "Insights", "Contact Us"].map(
             (items, index) => {
               return (
