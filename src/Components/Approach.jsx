@@ -11,11 +11,11 @@ const Approach = () => {
           need to raise funds, sell prod­ucts, ex­plain com­plex ideas, and hire
           great peo­ple.
         </div>
-        <div className="text-[1.1vw] flex flex-row h-[25vw] border-t border-gray-700 w-full">
+        <div className="text-[3vw] sm:text-[1.1vw] px-[4vw] sm:px-0 sm:py-[5vw]  grid grid-cols-1 h sm:grid-cols-3  border-t border-gray-700 w-full">
           <div className="left h-full w-[50vw] pl-[2.5vw] pt-[1vw] flex items-start justify-start  ">
             <span className="">What you can expect:</span>
           </div>
-          <div className="middle w-[20vw] gap-[2vw] flex pt-[2vw]   flex-col">
+          <div className="middle grid-cols-2 w-[90vw] sm:w-[20vw] sm:gap-[2vw]  pt-[2vw]   ">
             <span>
               We create tailored presentations to help you persuade your
               colleagues, clients, or investors. Whether its live or digital,
@@ -26,7 +26,7 @@ const Approach = () => {
               is what makes your message clear, convincing, and captivating.
             </span>
           </div>
-          <div className="right flex items-center justify-center w-[30vw] h-full">
+          <div className="right  flex items-center justify-left sm:justify-center  ">
             <div className="flex flex-col ">
               <h5 className="pb-2">S:</h5>
               <a className="hover:underline" href="">

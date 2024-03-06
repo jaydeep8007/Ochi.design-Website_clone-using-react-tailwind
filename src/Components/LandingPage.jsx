@@ -10,7 +10,7 @@ const LandingPage = () => {
         // ................
         className="w-full h-[50vh] sm:h-screen text-black bg-white"
       >
-        <div className="leftTextArea  pt-[22vh] pl-[3vw] ">
+        <div className="leftTextArea  pt-[15vh] sm:pt-[22vh] pl-[3vw] ">
           <div className="maskers  font-['Founders_Grotesk']">
             {["WE CREATE", "EYE-OPENING", "PRESENTATIONS"].map(
               (items, index) => {
