@@ -23,7 +23,7 @@ const LandingPage = () => {
                         initial={{ width: 0 }}
                         animate={{ width: "6vw" }}
                         transition={{ ease: [0.83, 0, 0.17, 1], duration: 1.2 }}
-                        className="overflow-hidden scale-110 h-[5vw] sm:h-[4vw] w-[7vw] relative   rounded-md"
+                        className="overflow-hidden scale-110 h-[5vw] sm:h-[5vw] w-[7vw] relative   "
                       >
                         <img className="" src="/ochiSlide.png" alt="" />
                       </motion.div>
