@@ -44,10 +44,12 @@ const Approach = () => {
             </div>
           </div>
         </div>
-        <div className="OurApproach  border-t border-gray-700 h-[40vw] w-full  flex items-center flex-col sm:flex-row ">
+        <div className="OurApproach  border-t border-gray-700 h-[40vw] w-full  flex items-center  flex-col sm:flex-row ">
           <div className="leftb h-full  sm:w-[50vw] flex flex-col gap-[2vw] pl-[3vw] pt-[2vw] mb-[10vh]">
-            <h1 className="font-semibold text-[3vw]">Our approach:</h1>
-            <button className="overflow-hidden text-[8px] sm:text-[20px] w-[20vw]  sm:w-[11vw] sm:h-[4vw] bg-black text-white rounded-full border border-gray-500 px-3 py-1">
+            <h1 className="font-semibold text-[6vw] sm:text-[3vw]">
+              Our approach:
+            </h1>
+            <button className="overflow-hidden scale-150 ml-[8vw] sm:ml-0 sm:scale-100 text-[8px] sm:text-[20px] w-[20vw]  sm:w-[11vw] sm:h-[4vw] bg-black text-white rounded-full border border-gray-500 px-3 py-1">
               READ MORE
             </button>
           </div>
