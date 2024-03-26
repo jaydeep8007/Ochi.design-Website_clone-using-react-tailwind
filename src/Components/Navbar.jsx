@@ -70,7 +70,7 @@ const Navbar = () => {
       </nav>
       {isOpen && (
         <div
-          className={`links flex flex-col md:hidden text-[4vw]   gap-[3vw] pt-[6vh]  py-[5vw]  px-[3.5vw]  w-full  justify-between items-center  text-zinc-900 bg-white `}
+          className={`links flex flex-col md:hidden text-[4vw] border-b border-black  gap-[3vw] pt-[6vh]  py-[5vw]  px-[3.5vw]  w-full  justify-between items-center  text-zinc-900 bg-white `}
         >
           {["Services", "Our Work", "About Us", "Insights", "Contact Us"].map(
             (items, index) => {
