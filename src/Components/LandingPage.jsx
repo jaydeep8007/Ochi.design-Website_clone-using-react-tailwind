@@ -11,11 +11,11 @@ const LandingPage = () => {
         className="w-full h-[50vh] sm:h-screen text-black bg-white"
       >
         <div className="leftTextArea  pt-[15vh] sm:pt-[22vh] pl-[3vw] ">
-          <div className="maskers  font-['Founders_Grotesk']">
+          <div className="maskers  font-bold">
             {["WE CREATE", "EYE-OPENING", "PRESENTATIONS"].map(
               (items, index) => {
                 return (
-                  <div key={index} className="flex gap-[2vw]">
+                  <div key={index} className="flex items-center gap-[2vw]">
                     {index === 1 && (
                       // FOR APPLY MOTION MAKE DIV TO MOTION.DIV AND IT IS NECESSARY TO  ADD INITIAL AND ANIMATE TAG LIKE BELOW
 
@@ -23,14 +23,14 @@ const LandingPage = () => {
                         initial={{ width: 0 }}
                         animate={{ width: "6vw" }}
                         transition={{ ease: [0.83, 0, 0.17, 1], duration: 1.2 }}
-                        className="overflow-hidden scale-110 h-[5vw] sm:h-[5vw] w-[7vw] relative   "
+                        className="overflow-hidden flex justify-center items-center scale-110 h-[5vw] sm:h-[5vw] w-[6vw] relative   "
                       >
                         <img className="" src="/ochiSlide.png" alt="" />
                       </motion.div>
                     )}
                     <h1
                       key={index}
-                      className="text-[8vw]  leading-[7vw] tracking-tighter"
+                      className="text-[6.5vw]  leading-none tracking-tighter"
                     >
                       {items}
                     </h1>
