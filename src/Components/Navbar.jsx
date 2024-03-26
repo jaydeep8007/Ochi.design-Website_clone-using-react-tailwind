@@ -61,14 +61,14 @@ const Navbar = () => {
         <div className="hamberger md:hidden">
           <button onClick={toggleNavbar} className="">
             {isOpen ? (
-              <img className="h-[4vh]" src="/hamberger.svg" alt="" />
-            ) : (
               <img className="h-[4vh]" src="/closeHamberger.svg" alt="" />
+            ) : (
+              <img className="h-[4vh]" src="/hamberger.svg" alt="" />
             )}
           </button>
         </div>
       </nav>
-      {!isOpen && (
+      {isOpen && (
         <div
           className={`links flex flex-col md:hidden text-[4vw]   gap-[3vw] pt-[6vh]  py-[5vw]  px-[3.5vw]  w-full  justify-between items-center  text-zinc-900 bg-white `}
         >
