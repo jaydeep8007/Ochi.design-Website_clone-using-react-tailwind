@@ -4,14 +4,14 @@ const Approach = () => {
       <div
         data-scroll
         data-scroll-speed=".2"
-        className=" h-fit sm:-mt-[15vw] w-full rounded-t-3xl text-black bg-[#CDEA68]"
+        className="h-[100vh] sm:h-fit sm:-mt-[15vw] w-full rounded-t-3xl text-black bg-[#CDEA68]"
       >
-        <div className=" text-[3.5vw] tracking-tighter leading-none sm:h-[30vh] w-full px-[5vw] pt-[5vw] mb-[4vw]  pr-[22vw]">
+        <div className=" text-[7vw] sm:text-[3.5vw] tracking-tighter leading-none sm:h-[30vh] w-full px-[5vw] pt-[5vw] mb-[4vw]  pr-[22vw]">
           Ochi is a strategic partner for fast-grow­ing tech businesses that
           need to raise funds, sell prod­ucts, ex­plain com­plex ideas, and hire
           great peo­ple.
         </div>
-        <div className="text-[3vw] sm:text-[1.1vw] px-[4vw] sm:px-0 sm:py-[5vw]  grid grid-cols-1 h sm:grid-cols-3  border-t border-gray-700 w-full">
+        <div className="text-[4vw] sm:text-[1.1vw] px-[4vw] sm:px-0 sm:py-[5vw]  grid grid-cols-1 h sm:grid-cols-3  border-t border-gray-700 w-full">
           <div className="left h-full w-[50vw] pl-[2.5vw] pt-[1vw] flex items-start justify-start  ">
             <span className="">What you can expect:</span>
           </div>
@@ -44,10 +44,10 @@ const Approach = () => {
             </div>
           </div>
         </div>
-        <div className="OurApproach  border-t border-gray-700 h-[40vw] w-full  flex flex-row  ">
-          <div className="leftb h-full w-[50vw] flex flex-col gap-[2vw] pl-[3vw] pt-[2vw]">
+        <div className="OurApproach  border-t border-gray-700 h-[40vw] w-full  flex items-center flex-col sm:flex-row ">
+          <div className="leftb h-full  sm:w-[50vw] flex flex-col gap-[2vw] pl-[3vw] pt-[2vw] mb-[10vh]">
             <h1 className="font-semibold text-[3vw]">Our approach:</h1>
-            <button className="overflow-hidden text-[1.8vw] w-[11vw] h-[4vw] bg-black text-white rounded-full border border-gray-500 px-3 py-1">
+            <button className="overflow-hidden text-[8px] sm:text-[20px] w-[20vw]  sm:w-[11vw] sm:h-[4vw] bg-black text-white rounded-full border border-gray-500 px-3 py-1">
               READ MORE
             </button>
           </div>
@@ -56,7 +56,7 @@ const Approach = () => {
            justify-center items-center  h-full w-[50vw] "
           >
             <img
-              className="bg-white bg-cover -mt-[5vw] rounded-lg h-[80%]  "
+              className="bg-white scale-150 sm:scale-100 bg-cover -mt-[5vw] rounded-lg sm:h-[80%]  "
               src="/ApproachRight.jpg"
               alt="img"
             />

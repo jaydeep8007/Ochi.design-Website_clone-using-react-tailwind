@@ -41,20 +41,20 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="w-full h-[1px] mt-[8vw]  bg-slate-700"></div>
-        <div className="bottomOfLandingPage text-[2vw] sm:text-[1vw] pt-5 mb-[6vw] gap-[1vh] flex flex-col sm:flex-row justify-between px-[3vw] ">
+        <div className="bottomOfLandingPage text-[3.5vw] sm:text-[1vw] pt-5 mb-[6vw] gap-[1vh] flex flex-col sm:flex-row justify-between px-[3vw] ">
           {[
             "For public and private companies",
             "From the first pitch to IPO",
           ].map((items, index) => {
             return <div key={index}>{items}</div>;
           })}
-          <main className="group">
+          <main className="group ">
             <button
-              className={`h-[2vh] sm:h-8 px-[1vw] rounded-3xl border border-slate-600 relative overflow-hidden hover:text-white`}
+              className={`h-[3vh] sm:h-8 px-[1vw] rounded-3xl border border-slate-600 relative overflow-hidden hover:text-white`}
             >
               <span className="relative z-10">START THE PROJECTS</span>
               <span
-                className={`bg-zinc-900 px-[1vw] w-full rounded-full h-[2vh] sm:h-8  absolute bottom-0 left-0  transform translate-y-full group-hover:translate-y-0 transition-all duration-300 ease-in-out`}
+                className={`bg-zinc-900 px-[1vw] w-full rounded-full h-[3vh] sm:h-8  absolute bottom-0 left-0  transform translate-y-full group-hover:translate-y-0 transition-all duration-300 ease-in-out`}
               ></span>
             </button>
           </main>

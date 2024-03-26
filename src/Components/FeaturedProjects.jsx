@@ -3,11 +3,11 @@ import Button from "./Button";
 const FeaturedProjects = () => {
   return (
     <div className="h-full w-full ">
-      <div className="h-[7vw]  w-full mt-[5vw] mb-[2vw] pl-[3vw] border-b border-gray-400  ">
-        <div className="text-[5vw] sm:text-[3.5vw] ">Featured Projects</div>
+      <div className="sm:h-[7vw]   w-full mt-[5vw] mb-[10vw]  sm:mb-[2vw] pl-[3vw] border-b border-gray-400  ">
+        <div className="text-[7vw] sm:text-[3.5vw] ">Featured Projects</div>
       </div>
       <div className="relative py-[5vh] sm:py-0 cardcontainer  w-full flex flex-col sm:flex-row gap-[10vh] sm:gap-[1.5vw]  items-center sm:justify-between  px-[4vw]  ">
-        <div className="leftCard scale-125 sm:scale-100">
+        <div className="leftCard scale-150 sm:scale-100">
           <div className="text-[1vw] text-black  absolute top-[2vw] left-[7vw] z-10 -translate-x-1/2 -translate-y-1/2">
             FYDE
           </div>
@@ -18,15 +18,15 @@ const FeaturedProjects = () => {
               alt=""
             />
           </div>
-          <div className=" scale-150  sm:scale-95 pt-[1vw]   justify-center flex flex-wrap flex-row gap-[.5vw]">
+          <div className=" scale-150 pl-[7vw] sm:pl-0 mt-[2vh] sm:mt-0 sm:pl0 leading-none sm:w-full w-[80%]  sm:scale-95 pt-[1vw]   justify-start sm:justify-center flex flex-wrap flex-row gap-[.5vw]">
             <Button tag={`AUDIT`} />
             <Button tag={`COPYWRITING`} />
             <Button tag={`SALES DECK`} />
             <Button tag={`SLIDES DESIGN`} />
           </div>
         </div>
-        <div className="Rightcard scale-125 sm:scale-100">
-          <div className="text-[1vw] text-black absolute top-[2vw] left-[4vw] sm:right-[54vw] z-10 -translate-x-1/2 -translate-y-1/2 ">
+        <div className="Rightcard scale-150 mt-[10vh] sm:mt-0 sm:scale-100">
+          <div className="text-[1vw] text-white absolute top-[2vw] left-[4vw] sm:right-[54vw] z-10 -translate-x-1/2 -translate-y-1/2 ">
             WISE
           </div>
           <div className="w-[45vw] h-[35vw] flex items-center bg-[#19181E] rounded-xl transform ease-in-out transition-transform duration-700 hover:scale-95">
@@ -43,7 +43,7 @@ const FeaturedProjects = () => {
           </div>
         </div>
       </div>
-      <div className="caseStudiesBtn  pt-[8vh] sm:pt-[5vw] relative">
+      <div className="caseStudiesBtn  pt-[15vh] sm:pt-[10vw] relative">
         <main className="group scale-50 sm:scale-100 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <button
             className={`h-10 px-[1vw] rounded-3xl bg-zinc-800 text-white border  border-gray-900 relative overflow-hidden hover:text-white`}

@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div>
-      <div className="h-[80vh] sm:h-screen overflow-hidden flex pt-[5vw] rounded-t-2xl text-white bg-[#115850] w-full">
+      <div className="h-[80vh] sm:h-screen overflow-hidden flex  rounded-t-2xl text-white bg-[#115850] w-full">
         <div className="left relative h-screen w-[50vw] ">
           <div className="w-[20vw] h-full ml-[5vw] mt-[2vw] flex flex-col ">
             <span className="text-[6vw]  font-bold tracking-tighter leading-none">

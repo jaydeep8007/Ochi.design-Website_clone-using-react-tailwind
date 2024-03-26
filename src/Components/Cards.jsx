@@ -1,7 +1,7 @@
 const Cards = () => {
   return (
     <div>
-      <div className="h-[80vh] mt-[10vh] sm:mt-0 sm:h-screen w-full ">
+      <div className="h-[80vh] mt-[10vh] mb-[5vh] sm:mt-0 sm:h-screen w-full ">
         <div className="cards h-full px-[5vw] grid grid-cols-1  sm:grid-cols-12  sm:sgap-[10vh] sm:gap-[1vw]  sm:justify-between  items-center  ">
           <div className="card1 col-span-12 sm:col-span-6  sm:scale-100 hover:scale-[102%] transform transition-transform ease-in-out duration-700  relative h-[50vw] sm:h-[26vw]  flex items-center justify-center rounded-xl bg-[#004D43]">
             <img src="/ochiCard1.svg" alt="" />
