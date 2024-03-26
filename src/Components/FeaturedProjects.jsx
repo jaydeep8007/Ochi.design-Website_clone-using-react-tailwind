@@ -43,7 +43,7 @@ const FeaturedProjects = () => {
           </div>
         </div>
       </div>
-      <div className="caseStudiesBtn scale-150  pt-[15vh] sm:pt-[10vw] relative">
+      <div className="caseStudiesBtn   pt-[15vh] sm:pt-[10vw] relative">
         <main className="group scale-50 sm:scale-100 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <button
             className={`h-10 px-[1vw] rounded-3xl bg-zinc-800 text-white border  border-gray-900 relative overflow-hidden hover:text-white`}
