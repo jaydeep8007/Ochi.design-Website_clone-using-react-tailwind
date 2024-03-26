@@ -15,25 +15,22 @@ const LandingPage = () => {
             {["WE CREATE", "EYE-OPENING", "PRESENTATIONS"].map(
               (items, index) => {
                 return (
-                  <div key={index} className="flex   gap-[1vw]">
+                  <div key={index} className="flex gap-[2vw]">
                     {index === 1 && (
                       // FOR APPLY MOTION MAKE DIV TO MOTION.DIV AND IT IS NECESSARY TO  ADD INITIAL AND ANIMATE TAG LIKE BELOW
+
                       <motion.div
                         initial={{ width: 0 }}
-                        animate={{ width: "7vw" }}
+                        animate={{ width: "6vw" }}
                         transition={{ ease: [0.83, 0, 0.17, 1], duration: 1.2 }}
-                        className="overflow-hidden h-[5vw] sm:h-[5vw] w-[7vw] relative sm:-top-[.8vw]  rounded-md"
+                        className="overflow-hidden scale-110 h-[5vw] sm:h-[4vw] w-[7vw] relative   rounded-md"
                       >
-                        <img
-                          className="scale-125"
-                          src="/ochiSlide.png"
-                          alt=""
-                        />
+                        <img className="" src="/ochiSlide.png" alt="" />
                       </motion.div>
                     )}
                     <h1
                       key={index}
-                      className="text-[7vw]  leading-[6vw] tracking-tighter"
+                      className="text-[8vw]  leading-[7vw] tracking-tighter"
                     >
                       {items}
                     </h1>
