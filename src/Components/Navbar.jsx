@@ -1,8 +1,15 @@
+import { useState } from "react";
 const Navbar = () => {
+  const [isOpen, setisOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setisOpen(!isOpen);
+  };
+
   return (
     <>
-      <div className="Navbar  fixed z-[999] w-full flex justify-between items-center px-[3.5vw] py-[1.2vw]  backdrop-filter backdrop-blur-lg text-zinc-900  bg-zinc-900 bg-opacity-5">
-        <div className="logo">
+      <nav className="Navbar  fixed z-[999] w-full flex justify-between items-center px-[3.5vw] py-[1.2vw]  backdrop-filter backdrop-blur-lg text-zinc-900  bg-zinc-900 bg-opacity-5">
+        <div className="logo scale-125 md:scale-100">
           <svg
             width="72"
             height="30"
@@ -32,12 +39,17 @@ const Navbar = () => {
             ></path>
           </svg>
         </div>
-        <div className={`links text-[1.9vw] sm:text-[1vw] flex gap-[3vw]  `}>
+
+        <div
+          className={`links hidden text-[1.9vw] sm:text-[1vw] md:flex gap-[3vw]  `}
+        >
           {["Services", "Our Work", "About Us", "Insights", "Contact Us"].map(
             (items, index) => {
               return (
                 <a
-                  className={`hover:underline  ${index === 4 && "ml-[20vw]"}`}
+                  className={`hover:underline cursor-pointer  ${
+                    index === 4 && "ml-[20vw]"
+                  }`}
                   key={index}
                 >
                   {items}
@@ -46,7 +58,31 @@ const Navbar = () => {
             }
           )}
         </div>
-      </div>
+        <div className="hamberger md:hidden">
+          <button onClick={toggleNavbar} className="">
+            {isOpen ? (
+              <img className="h-[4vh]" src="/hamberger.svg" alt="" />
+            ) : (
+              <img className="h-[4vh]" src="/closeHamberger.svg" alt="" />
+            )}
+          </button>
+        </div>
+      </nav>
+      {!isOpen && (
+        <div
+          className={`links flex flex-col md:hidden text-[4vw]   gap-[3vw] pt-[6vh]  py-[5vw]  px-[3.5vw]  w-full  justify-between items-center  text-zinc-900 bg-white `}
+        >
+          {["Services", "Our Work", "About Us", "Insights", "Contact Us"].map(
+            (items, index) => {
+              return (
+                <a className={`hover:underline cursor-pointer`} key={index}>
+                  {items}
+                </a>
+              );
+            }
+          )}
+        </div>
+      )}
     </>
   );
 };
